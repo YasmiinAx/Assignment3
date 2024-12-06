@@ -1,0 +1,178 @@
+/************* your name: Yasmiin Abdullahi
+
+INSTRUCTIONS:
+Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
+
+Comments starting with TO-DO may be left in for reference or removed entirely: all other comments should be left as-is for ease of review.
+
+You are discouraged from changing any provided CSS.
+
+***** colour palette: *****
+- mustard yellow (used for header, footer, and buttons): #E5AF42
+- cornflower blue (used for hover states): #4278e5
+
+/************* site defaults *************/
+body {
+    width: 950px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+body, h1, .booking-page, .fake-button.blue-hover {
+    margin: 0 auto; /* align everything to the center */
+}
+
+.flex {
+    display: flex;
+    justify-content: center; /* align buttons to center */
+}
+
+/************* site-wide text styling *************/
+
+h1 {
+    font-size: 48px;
+    margin-top: 40px; /* vertically align header 'title' */
+}
+
+h1, .fake-button, footer, .booking-page, .contact {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    line-height: 3;
+}
+
+.fake-button, .blue-hover, .small-button, input, textarea, button {
+    border: solid black 1px;
+}
+
+a {
+    text-decoration: none; /* get rid of all underlines when viewing page */
+    color: black;
+}
+
+header a:hover, footer a:hover, .fake-button:hover, .blue-hover:hover {
+    text-decoration: underline; /* underlines appear when hovered */
+}
+
+.fake-button:hover {
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+/************* header/footer styling *************/
+
+header, footer, .blue-hover:hover, .fake-button {
+    background-color: #E5AF42;
+    text-decoration: none;
+}
+
+header, textarea {
+    height: 150px;
+}
+
+main, img, .fake-button.blue-hover {
+    margin-bottom: 50px;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+header, header img {
+    margin-bottom: 25px;
+}
+
+footer {
+    height: 60px; 
+    padding: 30px; /* added to align content vertically */
+    font-weight: 200;
+    clear: both; /* used to fix display issues and align the background correctly */
+}
+
+footer, h2 {
+    line-height: 1; /* shortens the line-height */
+}
+
+/************* index page *************/
+
+.index {
+    float: left; /* align all text to the right */
+}
+
+img {
+    margin-left: 25px;
+    float: right; /* align img to the right */
+}
+
+p, h2, .blue-hover, .top-margin {
+    margin-bottom: 12px;
+}
+
+.fake-button.large-text {
+    width: 250px;
+    Margin-right: 150px;
+}
+
+/************* bookings page *************/
+
+.booking-page {
+    width: 600px;
+    font-size: 18px;
+}
+
+.blue-hover {
+    margin-right: 20px;
+    width: 60px;
+}
+
+.small-button {
+    margin: 5px;
+    padding: 5px;
+}
+
+.top-margin {
+    margin-top: 24px;
+}
+
+.fake-button.blue-hover {
+    width: 200px;
+}
+
+/************* contact page *************/
+
+.contact {
+    height: 420px;
+}
+
+label {
+    width: 150px;
+}
+
+input, textarea, img {
+    width: 300px;
+}
+
+input, textarea, button {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+#submit-button {
+    margin-left: 150px; /* adjusted to match text-area element */
+    width: 306px; 
+}
